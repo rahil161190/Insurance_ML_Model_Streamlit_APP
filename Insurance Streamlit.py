@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 import pickle
+import numpy as np
 
 try:
     with open('Insurance.pkl', 'rb') as file:
